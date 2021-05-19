@@ -1,0 +1,91 @@
+.mainBackground {
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Trebuchet MS', sans-serif;
+  background-color: #282c34;
+  color: #eae6e5;
+}
+.navImg {
+  height: 45px;
+  border-radius: 100px;
+  margin: 5px;
+}
+.brandContainer {
+  transition: 0.5s;
+  border-radius: 9px;
+}
+.brandContainer:hover {
+  transition: 0.3s;
+  background-color: #282c34;
+  border-radius: 9px;
+  animation-timing-function: ease-in-out;
+}
+.navHolder {
+  width: 100%;
+}
+.pageHolder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+  margin: 0 auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.jumbo {
+  width: 100%;
+  background-color: #7E111A;
+}
+.jumboL1 {
+  width: 100%;
+  background-color: #7AA0CD;
+  color: #282c34;
+}
+#elevatedImg {
+  z-index: -1;
+  box-shadow: 3px 3px 10px 0 #282c34;
+  margin-bottom: 15px;
+}
+.homeImg {
+  width: 100%;
+}
+#aboutJumbo {
+  display: flex;
+  flex-wrap: wrap;
+}
+#aboutL1:hover {
+  box-shadow: 3px 3px 10px 0 #282c34;
+  transition: 0.2s;
+}
+#aboutL1 {
+  width: 45%;
+  margin: 2.5%;
+  transition: 0.2s;
+}
+.accordionHeader:hover {
+  border: #eae6e5 3px solid;
+  background-color: #f49f0a;
+  transition: 0.2s;
+  border-radius: 0;
+}
+.accordionHeader {
+  transition: 0.2s;
+  border: #7E111A 1px solid;
+  border-radius: 9px;
+  width: 200px;
+  height: auto;
+}
+.toggleHolder {
+  display: flex;
+}
+.cardHolder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #282c34;
+}
+/*# sourceMappingURL=style.css.map */
