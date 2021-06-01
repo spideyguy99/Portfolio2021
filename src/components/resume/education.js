@@ -6,7 +6,8 @@ export default function Education(){
         <div>
             <Jumbotron className={"jumboL1"}>
                 <h2>Education</h2>
-                <div style={{width: 600, margin: 20}}>
+                <div id={"break"}/>
+                <div className={"education"}>
                     <h4>
                         Indiana University Purdue University Indianapolis - IUPUI
                     </h4>
@@ -15,15 +16,7 @@ export default function Education(){
                     <p>Concentration: Web/Application Development</p>
                 </div>
 
-                <div style={{width: "100%", margin: 20}}>
-                    <h4>
-                        Indiana University Kokomo
-                    </h4>
-                    <p>Indiana University School of Sciences</p>
-                    <p>Bachelor of Science New Media</p>
-                </div>
-
-                <div style={{width: "100%", margin: 20}}>
+                <div className={"education"}>
                     <h4>
                         Fishers High School
                     </h4>

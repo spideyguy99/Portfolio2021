@@ -6,8 +6,8 @@
   margin: 0 auto;
   padding: 0;
   font-family: 'Trebuchet MS', sans-serif;
-  background-color: #282c34;
-  color: #eae6e5;
+  background-color: #02111B;
+  color: #FCFCFC;
 }
 .navImg {
   height: 45px;
@@ -35,19 +35,20 @@
   margin: 0 auto;
   padding-right: 10px;
   padding-left: 10px;
+  margin-top: 10px;
 }
 .jumbo {
   width: 100%;
-  background-color: #7E111A;
+  background-color: #5D737E;
 }
 .jumboL1 {
   width: 100%;
-  background-color: #7AA0CD;
-  color: #282c34;
+  background-color: #30292F;
+  color: #FCFCFC;
 }
 #elevatedImg {
   z-index: -1;
-  box-shadow: 3px 3px 10px 0 #282c34;
+  box-shadow: 3px 3px 10px 0 #02111B;
   margin-bottom: 15px;
 }
 .homeImg {
@@ -57,24 +58,20 @@
   display: flex;
   flex-wrap: wrap;
 }
-#aboutL1:hover {
-  box-shadow: 3px 3px 10px 0 #282c34;
-  transition: 0.2s;
-}
 #aboutL1 {
   width: 45%;
   margin: 2.5%;
-  transition: 0.2s;
+  transition: 1s;
 }
 .accordionHeader:hover {
-  border: #eae6e5 3px solid;
-  background-color: #f49f0a;
+  border: #3F4045 3px solid;
+  background-color: #FCFCFC;
   transition: 0.2s;
   border-radius: 0;
 }
 .accordionHeader {
   transition: 0.2s;
-  border: #7E111A 1px solid;
+  border: #5D737E 1px solid;
   border-radius: 9px;
   width: 200px;
   height: auto;
@@ -86,6 +83,27 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  color: #282c34;
+  color: #3F4045;
+}
+#resumeHead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+#break {
+  height: 1px;
+  width: 100%;
+  background-color: #FCFCFC;
+  margin-bottom: 15px;
+}
+.education {
+  padding: 15px;
+}
+.education p {
+  text-align: right;
+}
+.experience {
+  margin-bottom: 50px;
 }
 /*# sourceMappingURL=style.css.map */

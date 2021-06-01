@@ -11,10 +11,11 @@ export default function Resume(){
         <div className={"pageHolder"}>
             <Jumbotron className={"jumbo"}>
                 <h2>Resume</h2>
-                <Jumbotron className={"jumboL1"}>
+                <Jumbotron className={"jumboL1"} id={"resumeHead"}>
                     <h2>
                         My Objective as a Professional Web Developer
                     </h2>
+                    <div id={"break"}/>
                     <p>
                         To constantly expand my knowledge and proficiency with any and all tools that allow me to create and maintain professional websites.
                     </p>
