@@ -4,9 +4,10 @@ import {Jumbotron} from "react-bootstrap";
 export default function Skills(){
     return(
         <div>
-            <Jumbotron className={"jumboL1"}>
+            <Jumbotron className={"jumboL1"} id={"skillHolder"}>
                 <h2>Skills</h2>
-                <div>
+                <div id={"break"}/>
+                <div className={"skill"}>
                     <h4>Programming Languages</h4>
                     <ul>
                         <li>JavaScript</li>
@@ -28,7 +29,7 @@ export default function Skills(){
                         <li>Visual Basic</li>
                     </ul>
                 </div>
-                <div>
+                <div className={"skill"}>
                     <h4>Software</h4>
                     <ul>
                         <li>Microsoft Office Suite</li>
@@ -48,7 +49,7 @@ export default function Skills(){
                         <li>Google Firebase</li>
                     </ul>
                 </div>
-                <div>
+                <div className={"skill"}>
                     <h4>Operating Systems</h4>
                     <ul>
                         <li>Windows 10</li>
@@ -56,7 +57,7 @@ export default function Skills(){
                         <li>Linux (Ubuntu)</li>
                     </ul>
                 </div>
-                <div>
+                <div className={"skill"}>
                     <h4>IDE's</h4>
                     <ul>
                         <li>WebStorm</li>

@@ -10,7 +10,7 @@ export default function Activities(){
         <div>
             <Jumbotron className={"jumboL1"}>
                 <h2>Activites</h2>
-                <div>
+                <div className={"activity"} id={"elevatedImg"}>
                     <h4>Ultimate Frisbee</h4>
                     <p>Club Vice President</p>
                     <img
@@ -18,7 +18,7 @@ export default function Activities(){
                         src={UltTeam}
                     />
                 </div>
-                <div>
+                <div className={"activity"} id={"elevatedImg"}>
                     <h4>Marching Band</h4>
                     <p>Percussion: Bass Line & Quads</p>
                     <img
@@ -26,7 +26,7 @@ export default function Activities(){
                         src={BaseLine}
                     />
                 </div>
-                <div>
+                <div className={"activity"} id={"elevatedImg"}>
                     <h4>Paintball</h4>
                     <p>Just a fun hobby I enjoy... maybe a little too much</p>
                     <img
