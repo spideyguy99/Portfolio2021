@@ -7,9 +7,9 @@ export default function ProjectCards(){
     return(
         <div>
             <Jumbotron className={"jumboL1"}>
-                <div style={{display:"flex", flexWrap:"wrap"}}>
+                <div className={"projectCardHolder"}>
                     {HomeworkList.map(item => (
-                        <Card style={{ width: '18rem', margin: "20px" }}>
+                        <Card className={"projectCard"}>
                             <Card.Img variant={"top"} src={item.img}/>
                             <Card.Body>
                                 <Card.Title>
