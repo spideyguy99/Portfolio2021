@@ -1,4 +1,4 @@
-import React from "react";
+
 
 import Kero from '../images/graduation.jpeg';
 import Tyler from '../images/flower.jpg';

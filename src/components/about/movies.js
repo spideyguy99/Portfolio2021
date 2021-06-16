@@ -1,7 +1,6 @@
-import {Jumbotron, Accordion, Card, Button} from "react-bootstrap";
+import {Jumbotron, Accordion, Card} from "react-bootstrap";
 
 import MoviesList from "../assets/data/movies";
-import MusicList from "../assets/data/music";
 
 export default function Movies(){
 

@@ -14,6 +14,7 @@ export default function Activities(){
                     <h4>Ultimate Frisbee</h4>
                     <p>Club Vice President</p>
                     <img
+                        alt={"My ultimate team"}
                         className={"activitiesImage"}
                         src={UltTeam}
                     />
@@ -22,6 +23,7 @@ export default function Activities(){
                     <h4>Marching Band</h4>
                     <p>Percussion: Bass Line & Quads</p>
                     <img
+                        alt={"My base line"}
                         className={"activitiesImage"}
                         src={BaseLine}
                     />
@@ -30,6 +32,7 @@ export default function Activities(){
                     <h4>Paintball</h4>
                     <p>Just a fun hobby I enjoy... maybe a little too much</p>
                     <img
+                        alt={"Playing paintball"}
                         className={"activitiesImage"}
                         src={Paintball}
                     />

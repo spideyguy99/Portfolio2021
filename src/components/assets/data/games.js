@@ -1,4 +1,4 @@
-import React from "react";
+
 
 import Ghost from '../images/ghost.jpg';
 import Red from '../images/red.jpg';

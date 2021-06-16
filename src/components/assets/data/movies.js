@@ -1,4 +1,4 @@
-import React from "react";
+
 import Office from "../images/office.jpg";
 import Parks from "../images/parks.jpg";
 import Brook from "../images/brook.jpg";

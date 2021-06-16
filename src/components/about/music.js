@@ -1,13 +1,8 @@
-import {Jumbotron, Accordion, Card, Button} from "react-bootstrap";
-import {useState} from "react";
+import {Jumbotron, Accordion, Card} from "react-bootstrap";
 
 import MusicList from '../assets/data/music';
 
 export default function Music(){
-    const [show, setShow] = useState(false);
-
-    const handleClose = () => setShow(false);
-    const handleShow = (item) => this.setState({activeItem:item}, () => this.setState({show:true}));
 
     return(
         <Jumbotron className={"jumbo"}>
