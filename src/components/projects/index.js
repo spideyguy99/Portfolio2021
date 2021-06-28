@@ -2,6 +2,7 @@ import React from "react";
 import {Jumbotron} from "react-bootstrap";
 
 import ProjectCards from "./projectCards";
+import ReactCards from './reactCards';
 
 export default function Projects(){
     return(
@@ -10,6 +11,7 @@ export default function Projects(){
                 <h2>Projects</h2>
 
                 <ProjectCards/>
+                <ReactCards/>
 
                 <Jumbotron className={"jumboL1"}>
                     <h2>I also have a CodePen!</h2>

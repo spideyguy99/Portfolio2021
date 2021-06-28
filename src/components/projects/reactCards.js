@@ -1,25 +1,26 @@
 import React from "react";
 import {Jumbotron, Card} from "react-bootstrap";
 
-import HomeworkList from '../assets/data/cssClasswork'
+import reactWork from '../assets/data/reactClasswork'
 
-export default function ProjectCards(){
+export default function reactCards(){
     return(
         <div>
             <Jumbotron className={"jumboL1"}>
+                <h1>Advanced React Coursework</h1>
                 <h3>Advanced CSS Coursework</h3>
                 <div className={"projectCardHolder"}>
-                    {HomeworkList.map(item => (
-                            <Card className={"projectCard"}>
-                                <a href={item.url}>
+                    {reactWork.map(item => (
+                        <Card className={"projectCard"}>
+                            <a href={item.url}>
                                 <Card.Img variant={"top"} src={item.img}/>
                                 <Card.Body>
                                     <Card.Title>
                                         {item.name}
                                     </Card.Title>
                                 </Card.Body>
-                                </a>
-                            </Card>
+                            </a>
+                        </Card>
                     ))}
                 </div>
             </Jumbotron>

@@ -11,7 +11,6 @@
 
 .accordionHeader:hover{
   border: @layer1 3px solid;
-  background-color: @layer4;
   transition: 0.2s;
   border-radius: 0;
 }
@@ -19,8 +18,7 @@
   transition: 0.2s;
   border: @layer3 1px solid;
   border-radius: 9px;
-  width: 200px;
-  height: auto;
+  width: 100%;
 }
 
 .toggleHolder{
@@ -31,5 +29,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  color: @layer1;
+}
+
+.aboutCard{
+  background-color: @layer1;
+  color: @layer4;
+  width: 250px;
+  margin: 15px;
 }
