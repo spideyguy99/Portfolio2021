@@ -7,15 +7,15 @@ import Headshot from '../assets/images/profile.jpeg';
 export default function NavigationBar(){
     return(
         <div className={"navHolder"}>
-            <Navbar bg="dark" variant="dark" expand="lg">
+            <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
                 <LinkContainer to="/">
                     <div className={"brandContainer"}>
                         <img src={Headshot} alt={"profile shot"} className={"navImg"}/>
                         <Navbar.Brand>Noah Furniss</Navbar.Brand>
                     </div>
                 </LinkContainer>
-                <Navbar.Toggle aria-controls={"basic-navbar-nav"}/>
-                <Navbar.Collapse id={"basic-navbar-nav"}>
+                <Navbar.Toggle aria-controls={"responsive-navbar-nav"}/>
+                <Navbar.Collapse id={"responsive-navbar-nav"}>
                     <Nav className="mr-auto">
                         <LinkContainer to={'/'}>
                             <Nav.Link>Welcome</Nav.Link>

@@ -51,6 +51,12 @@
   box-shadow: 3px 3px 10px 0 #02111B;
   margin-bottom: 15px;
 }
+button {
+  background-color: #FCFCFC;
+  border-radius: 9px;
+  width: 200px;
+  justify-content: center;
+}
 .homeImg {
   width: 100%;
 }
